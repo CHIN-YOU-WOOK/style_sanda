@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/*=================재사용가능한 클래스=================*/
+.mx-auto {
+margin: 0 auto; 
+} /* 여백을 0으로 주면 사진 하나 가운데로 이동*/
+
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+
+.my-30 {
+    margin-top : 30px;
+    margin-bottom : 30px;
+}
+
+.my-40 {
+    margin-top : 40px;
+    margin-bottom : 40px;
+}
+
+.text-center {
+    text-align: center
+} /* 글 가운데로 이동*/
+
+.text-upper {
+    text-transform: uppercase ;
+}  /* 글자 소문자 대문자로 변형 */
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #d075c3;
+}  /* 경계선 크기 및 굵기 색깔 변형 가능 */
+
+#wrap {                  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    }  /* 동료 프로젝트 보고 쓴 내용 : 전체틀을 
+           조정하는 내용으로 보임 */
+
+/*=================개별요소에 적용할 스타일=================*/
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.logo {
+width : 100px;
+height: 100px;
+display: block;
+}
+
+.nav {
+font-size: 20px;
+color: #eb89dd;    
+height: 60px;
+line-height: 60px;
+}
+
+.cf {
+width : 600px;
+height : 360px;
+font-size: 0;    
+}
+
+.main1 {
+width : 600px;
+font-size: 0;
+}  /* 이미 블록화 되있으므로 2개 사진 너비크기만 넣고
+      높이는 주지 않고 글자 사이즈크기 0주면 
+      사진 가운데로 이동함. */
+
+.cs-title {
+font-size: 18px;
+}
+
+.cs1-title {
+font-size: 15px;
+letter-spacing: 5px;
+}
+
+.box {
+width : 220px ;
+border : 1px solid #333 
+
+}
+
+
+.deli {
+font-size : 18px;
+font-weight : bold;
+}
+.deli1 {
+font-size : 15px;
+}
+
+
+
+.ph-number {
+    font-size: 20px;
+    color : #d075c3;
+}
+
+.address-ko {
+    font-size : 12px;
+}
+
+.ownership-en {
+    font-size : 11px;
+}
+
+.last {
+height: 100px; 
+line-height: 100px;
+color : white;
+}
+
+.bg-last {
+    background-color: black;
+}
+/* 배경 색 검은 색으로 넣고 글자 하얀색으로 조정*/
+
+
+
+
+/*=================header==================================*/
+/*==================main===================================*/
+/*==================footer=================================*/
